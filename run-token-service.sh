@@ -1,6 +1,4 @@
 #!/bin/bash
-yum update -y
-yum install  maven git -y
 rm -rf token-service
 git clone https://github.com/manardella/token-service.git
 cd token-service
