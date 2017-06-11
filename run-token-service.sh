@@ -1,5 +1,6 @@
 #!/bin/bash
 yum update -y
+yum install  maven git -y
 git clone https://github.com/manardella/token-service.git
 cd token-service
 mvn clean package -DskipTests=true
